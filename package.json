@@ -1,0 +1,27 @@
+{
+  "name": "list_books",
+  "version": "1.0.0",
+  "description": "Listagem de livros com vueJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lleocastro/listbooks-with-vuejs.git"
+  },
+  "keywords": [
+    "project"
+  ],
+  "author": "Léo Castro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lleocastro/listbooks-with-vuejs/issues"
+  },
+  "dependencies": {
+    "vue-resource": "~1.0.3",
+    "vue": "~2.0.3",
+    "font-awesome": "~4.7.0",
+    "bootstrap": "~3.3.7"
+  }
+}
