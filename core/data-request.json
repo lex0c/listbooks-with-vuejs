@@ -1,0 +1,45 @@
+[
+    {
+        "id": "0",
+        "title": "Real-time com Node.js",
+        "price": "69,90",
+        "desc": "Permite escrever aplicações no server-side, tirando proveito da sintaxe."
+    },
+    {
+        "id": "1",
+        "title": "Boas práticas em UX Design",
+        "price": "69,90",
+        "desc": "Entender como o usuário se comportará no seu sistema é de extremo valor."
+    },
+    {
+        "id": "2",
+        "title": "CSS Eficiente",
+        "price": "69,90",
+        "desc": "Técnicas e ferramentas que fazem a diferença nos seus estilos."
+    },
+    {
+        "id": "3",
+        "title": "A Web Mobile",
+        "price": "69,90",
+        "desc": "Design Responsivo e além para uma Web adaptada ao mundo mobile."
+    },
+    {
+        "id": "4",
+        "title": "Guia Front-End",
+        "price": "69,90",
+        "desc": "O caminho das pedras para ser um dev Front-End"
+    },
+    {
+        "id": "5",
+        "title": "Dominando JavaScript com jQuery",
+        "price": "69,90",
+        "desc": "Apresentado de maneira incremental, substituindo código JavaScript longo e complicado."
+    },
+    {
+        "id": "6",
+        "title": "Domine a web do futuro",
+        "price": "69,90",
+        "desc": "Crie páginas de forma simples! HTML e CSS, quando bem utilizados, podem ser o sucesso de um projeto."
+    }
+    
+]
