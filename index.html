@@ -20,12 +20,13 @@
     <div id="app" class="container">
         <section class="row">
             <div class="col-xs-12">
-                <h1>List Books <small>with VueJS</small></h1>
+                <h1>List Books <small>with VueJS</small> <button class="btn btn-info">New Book</button></h1>
             </div>
         </section>
         <section class="row">
             <div class="col-xs-12 well">
-                <input type="search" class="form-control" placeholder="Procurar..." v-model="search"/>
+                <input type="search" class="form-control" 
+                placeholder="Search by, title, price or description..." v-model="search"/>
             </div>
         </section>
         <section class="row">
@@ -36,14 +37,20 @@
             	        <th>Title</th>
             	        <th>Price</th>
             	        <th>Description</th>
+            	        <th>Options</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr v-for="book in books">
-                        <td v-text="book.id"></td>
-                        <td v-text="book.title"></td>
-                        <td v-text="book.price"></td>
-                        <td v-text="book.desc"></td>
+                        <td>{{ book.id }}</td>
+                        <td>{{ book.title | uppercase }}</td>
+                        <td>{{ book.price }}</td>
+                        <td>{{ book.desc }}</td>
+                        <td>
+                        	<a href="#"><i class="fa fa-info" aria-hidden="true"></i></a> &nbsp;
+                        	<a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a> &nbsp;
+                        	<a href="#"><i class="fa fa-ban" aria-hidden="true"></i></a>
+                        </td>
                     </tr>
                 </tbody>
             </table>
